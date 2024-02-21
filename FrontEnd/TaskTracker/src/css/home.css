@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    background-color: black;
+}
+
+.txt{
+    color: aqua;
+}
+
+.bdy{
+    height: 80vh;
+    width: 100vw;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+    color: white;
+}
+/*  removes scrollbar   */
+.bdy::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    margin: 15px;
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+}
+.card:hover{
+    border-color: white;
+    transform: scale(1.04);
+}
+.card_title{
+    height: 10%;
+    width: 100%;
+    font-weight: 500;
+    font-size: large;
+    
+}
+.card_content{
+    height: 70%;
+    width: 100%;
+    font-weight: 300;
+}
+.btns{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.delete, .update{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 40%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.delete{
+    margin-right: 5%;
+    background-color: red
+}
+.update{
+    margin-left: 5%;
+    background-color: green;
+}
+.delete:hover, .update:hover{
+    transform: scale(1.02);
+    font-weight: 700;
+}
+.delete:active, .update:active{
+    transform: scale(0.98);
+    font-weight: 700;
+}

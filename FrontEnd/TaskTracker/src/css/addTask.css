@@ -1,0 +1,36 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.addTask_bdy{
+    width: 100vw;
+    height: 80vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    margin: 15px;
+}
+
+textarea{
+    margin: 20px;
+    padding: 5px;
+    resize: none;
+}
+
+
+button, input, textarea{
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.error{
+    margin: 15px;
+    color: orangered;
+}

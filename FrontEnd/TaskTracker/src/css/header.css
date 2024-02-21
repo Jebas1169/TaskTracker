@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    background-color: rgb(0, 10, 19);
+}
+
+.title{
+    font-size: larger;
+    font-weight: 700;
+    height: 100%;
+    width: 90%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    background-color: rgb(0, 10, 19);
+
+}
+
+.addbtn{
+    height: 100%;
+    width: auto;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 10, 19);
+
+}
+
+.addbtn:hover{
+    transform: scale(1.05);
+    color: white;
+    font-weight: 500;
+}
+
+.addbtn:active{
+    transform: scale(0.95);
+}
+
+a{
+    text-decoration: none;
+}
